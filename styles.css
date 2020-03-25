@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Baloo Chettan 2';
+    background-image: url(./cat.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover ; 
+   background-repeat: no-repeat;
+   background-color: black;
+}
+.mainDiv:hover{
+
+    
+    cursor: url('./paw.png'),default;
+
+    
+}
+
+
+.button:hover{
+    background-color:  rgba(255, 255, 66, 1);
+}
